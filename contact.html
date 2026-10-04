@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - TravelBloom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">🌸 TravelBloom</div>
+    <ul class="nav-links">
+      <li><a href="travel_recommendation.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main class="page">
+    <h1>Contact Us</h1>
+    <p>Email: support@travelbloom.com &nbsp;|&nbsp; Phone: +1 (555) 123-4567</p>
+
+    <form onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent.'); this.reset();">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+</body>
+</html>

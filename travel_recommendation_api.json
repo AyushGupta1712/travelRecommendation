@@ -1,0 +1,48 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Australia",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "images/Sydney.jpg",
+          "description": "A vibrant harbour city known for its glittering waterfront skyline, lively nightlife and world-famous landmarks."
+        },
+        {
+          "name": "Gold Coast, Australia",
+          "imageUrl": "images/Australia.jpg",
+          "description": "A sun-soaked coastal city where golden beaches, surf culture and towering skylines meet winding waterways."
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "images/Angkor_Watt.jpg",
+      "description": "A majestic 12th-century Khmer temple complex and the largest religious monument in the world."
+    },
+    {
+      "id": 2,
+      "name": "Golden Pagoda Temple, Cambodia",
+      "imageUrl": "images/Cambodia.jpg",
+      "description": "A beautifully ornate Buddhist temple with golden spires and orange-tiled roofs, set among peaceful gardens and ponds."
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "images/Bora_Bora.jpg",
+      "description": "Crystal-clear turquoise lagoons, overwater bungalows and a dramatic volcanic peak make this a dream island escape."
+    },
+    {
+      "id": 2,
+      "name": "Tropical Bay, French Polynesia",
+      "imageUrl": "images/France_Polynesia.jpg",
+      "description": "A quiet curved bay with soft sand, swaying palms and lush green mountains rising behind the shore."
+    }
+  ]
+}
